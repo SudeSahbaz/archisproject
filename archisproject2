@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Strategies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .left-column {
+            background-image: url('https://s3-alpha-sig.figma.com/img/ac5b/98dc/d8a0167daf381ccb0c352255693980bc?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dzsBWojdm8YPcvGvwj0iMwV1njZVsG41TbXtKXt6PYwDUxm4wWrvae2qYXbG7kvY4hFsdhJuqxk2GUixwpZFeWdig80YaCFKzL4vW1C~tIbStBODhZPSiCw7AnnteHEJSDQU0kQ5ca0D8NjZKs6IW~XTBrgwzlNGjnAxmmz5TadKgk2BqdP2rjgMorlNThXo6qqOgrA0YqKz57P4qCZ-r3LPyUfRHEC13zDf40Nl05dTLKhA2rt8e6k0txrGri4lZu6IRMkDz19UD2xDzyuo8fqwOstPVgJS~k~FagbkyVdFLsid-~LIN9C-zO31GLMY~CsGrrfdqu~XZluJlC-CFg__');
+            background-size: cover;
+            background-position: center;
+        }
+        .right-column {
+            flex-direction: column;
+            text-align: left;
+            gap: 20px;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .paragraphs {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .paragraphs div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .paragraphs span {
+            font-weight: bold;
+            color: #FE6839;
+        }
+        .learn-more {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: 1px solid #FE6839;
+            color: #FE6839;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .learn-more:hover {
+            background: #FE6839;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="column left-column"></div>
+<div class="column right-column">
+    <h1>New Strategies that Lead to a Growing in Sales</h1>
+    <div class="paragraphs">
+        <div><span>01</span> Lorem ipsum</div>
+        <div><span>02</span> Lorem ipsum</div>
+        <div><span>03</span> Lorem ipsum</div>
+    </div>
+    <div class="learn-more">Learn more</div>
+</div>
+</body>
+</html>
