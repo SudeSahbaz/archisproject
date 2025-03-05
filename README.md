@@ -54,9 +54,6 @@
             border-radius: 10px;
         }
 
-        /* Medya Sorguları (Tablet ve Mobil için düzenlemeler) */
-
-        /* Tablet (max-width: 768px) */
         @media (max-width: 768px) {
             body {
                 flex-direction: column;
@@ -76,7 +73,6 @@
             }
         }
 
-        /* Mobil (max-width: 480px) */
         @media (max-width: 480px) {
             body {
                 padding: 15px;
